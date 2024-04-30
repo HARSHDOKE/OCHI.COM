@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lakki+Reddy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lakki+Reddy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Lakki+Reddy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.about-main{
+    width: 100vw;
+    overflow: hidden;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: #cdea68;
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+    color: #212121;
+    padding: 4vw;
+}
+
+.about-main h1{
+    width: 85vw;
+    height: 15vw;
+    font-family: sans-serif;
+    font-size: 4vw;
+    letter-spacing: -0.025em;
+    font-weight: 100;
+    line-height: 4.5vw;
+}
+
+.section1{
+    width: 90vw;
+    border-top: 1px solid #a1b562;
+    margin-top: 4vw;
+    display: flex;
+}
+
+.div1{
+    width: 45vw;
+    padding: 1.5vw;
+}
+
+.div1 p{
+    font-size: 1.3vw;
+    font-family: calibri;
+    font-weight: 400;
+}
+
+.div2{
+    width: 35vw;
+    padding: 1.3vw;
+}
+
+.div2 p{
+    font-size: 1.3vw;
+    font-family: calibri;
+    font-weight: 400;
+    width: 18vw;
+}
+
+.p2{
+    margin-top: 30px;
+}
+
+.div3{
+    width: 20vw;
+    padding: 1.3vw;
+    display: flex;
+}
+
+.div3 p{
+    font-size: 1.3vw;
+    font-family: calibri;
+    font-weight: 400;
+}
+
+.social{
+    margin-top: 7.4vw;
+    margin-left: 1.3vw;
+}
+
+.p3{
+    margin-top: 7.4vw;
+}
+
+.section2{
+    width: 90vw;
+    border-top: 1px solid #a1b562;
+    margin-top: 4vw;
+    padding-top: 2vw;
+    display: flex;
+    gap: 5px;
+}
+
+.sec-2-div{
+    width: 45vw;
+}
+
+.sec-2-div h1{
+    font-family: sans-serif;
+}
+
+.aboutbtn1{
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 320%;
+    background-color: #212121;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.circl{
+    width: 5px;
+    height: 5px;
+    color: #fff;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.sec-2-div2{
+    width: 50vw;
+    height: 70vh;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.sec-2-div2 img{
+    border-radius: 15px;
+    object-fit: cover;
+}
